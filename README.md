@@ -12,7 +12,7 @@ Etudier 3 studios de jeux vidéos et les comparer. (Ubisoft, GameLoft, Focus Ent
 
 Membres du groupe :
 
-Julien OUDOT
+Julien Oudot
 Titouan MAGNIN 
 Titouan Nicot 
 Lilian Schott
