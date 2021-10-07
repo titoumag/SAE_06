@@ -1,6 +1,7 @@
 # SAE_06
 
-Sujet :
+Sujet (entreprises choisies) :
+
 <p float="left">
   <img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/U.png" alt="Ubisoft" width="100" height="100">
   <img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/GL.png" alt="GameLoft" width="100" height="100">
