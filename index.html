@@ -2,22 +2,26 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>SAE06 main page</title>
+	<title>SAE06 - JTTL</title>
 	<link rel="icon" href="https://raw.githubusercontent.com/titoumag/SAE_06/main/favicon.ico">
 	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
+	<!-- Nav -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	      <div class="container-fluid">
-		<a class="navbar-brand" href="#">Navbar</a>
+		<a class="navbar-brand" href="#">
+		  <img src="static/img/logo.png" alt="cd.." height="36">
+		</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 		    <li class="nav-item">
-		      <a class="nav-link disabled active" aria-current="page" href="index.html">Home</a>
+		      <a class="nav-link disabled active" aria-current="page" href="index.html">Accueil</a>
 		    </li>
 		    <li class="nav-item">
 		      <a class="nav-link" href="list_article.html">Ubisoft</a>
@@ -26,22 +30,76 @@
 		      <a class="nav-link" href="list_type_article.html">Gameloft</a>
 		    </li>
 		    <li class="nav-item">
-		      <a class="nav-link" href="list_type_article.html">Focus Entetainment</a>
+		      <a class="nav-link" href="list_type_article.html">Focus Entertainment</a>
 		    </li>
 		  </ul>
 		</div>
 	      </div>
 	</nav>
-	<div>
-		<img style="width:30%;" src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/U.png">
-		<img style="width:30%;" src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/GL.png">
-		<img style="width:30%;" src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/FE.png">
+	
+	
+	
+	<!-- Body -->
+	
+	<div style="
+		background: no-repeat center/100% url('static/img/bg.png');
+		height: 300px;
+	"></div>
+
+	<div class="container px-4 py-5" id="featured-1">
+		<div class="row g-4 py-5 row-cols-1 row-cols-lg-1">
+			<div class="feature col">
+				<div class="feature-icon bg-primary bg-gradient">
+					<svg class="bi" width="1em" height="1em"><use xlink:href="#collection"/></svg>
+				</div>
+				<h2>JTTL</h2>
+				<p>	
+					JTTL est un outil vous permettant de comparer 3 entreprises françaises du domaine du jeu vidéo :
+					<br>
+					- Ubisoft
+					<br>
+					- Gameloft
+					<br>
+					- Focus Entertainment
+				</p>
+
+			</div>
+			<div class="feature col">
+				<div class="feature-icon bg-primary bg-gradient">
+					<svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+				</div>
+				<h2>Développeurs</h2>
+				<p>
+					JTTL a été crée par :
+					<br>
+					Julien OUDOT
+					<br>
+					Titouan MAGNIN
+					<br>
+					Titouan NICOT
+					<br>
+					Lilian SCHOTT
+				</p>
+			</div>
+
+		</div>
 	</div>
-	<h1 style="text-align: center;">Membres du groupe :</h1>
-	<p style="text-align: center;">Julien OUDOT</p>
-	<p style="text-align: center;">Titouan NICOT</p>
-	<p style="text-align: center;">Lilian SCHOTT</p>
-	<p style="text-align: center;">Titouan MAGNIN.</p>
+	
+	
+	<!-- Footer -->
+	
+	<div class="container">
+	  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+		<div class="col-md-4 d-flex align-items-center">
+		  <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+			<svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+		  </a>
+		  <span class="text-muted">2021 JTTL</span>
+		</div>
+	  </footer>
+	</div>
+	
+	
 	<script src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
