@@ -16,3 +16,9 @@ Membres du groupe :
 Titouan MAGNIN 
 Titouan Nicot 
 Lilian Schott
+
+Ecran de zoning :<br>
+<img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/zoning.png" alt="zoning" width="400" height="200">
+
+Ecran prototype :<br>
+<img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/prototype.png" alt="prototype" width="400" height="200">
