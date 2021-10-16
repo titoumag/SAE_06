@@ -17,8 +17,8 @@ Titouan MAGNIN
 Titouan Nicot 
 Lilian Schott
 
-Ecran de zoning :<br>
-<img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/zoning.png" alt="zoning" width="400" height="200">
+![écran de zoning](doc/zoning.png)
 
-Ecran prototype :<br>
-<img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/prototype.png" alt="prototype" width="400" height="200">
+![écran prototype](doc/prototype.png)
+
+{Doc PDF](doc/JulienOUDOT_S1B2_SAE106_rapport_comparatif.pdf)
