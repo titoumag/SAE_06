@@ -21,4 +21,4 @@ Lilian Schott
 
 ![écran prototype](doc/prototype.png)
 
-{Doc PDF](doc/JulienOUDOT_S1B2_SAE106_rapport_comparatif.pdf)
+[Doc PDF](doc/JulienOUDOT_S1B2_SAE106_rapport_comparatif.pdf)
