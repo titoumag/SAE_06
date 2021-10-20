@@ -3,7 +3,12 @@ a, nav-link {
 	text-decoration: none;
 }
 
-a:hover, nav-link:hover{
+a:hover{
+	color: #23D604;
+	text-decoration: underline;
+}
+
+nav-link:hover{
 	color: #23D604;
 	text-decoration: underline;
 }
