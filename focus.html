@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
 	<title>SAE06 - JTTL</title>
@@ -11,58 +11,76 @@
 <body>
 
 	<!-- Nav -->
-	<nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                  <img src="static/img/logo.png" alt="cd.." height="36">
-                </a>
-                <button type="button" class="top-right btn btn-danger" onclick="QuitPage()">X</button>
-                <button class="toggler-border navbar-toggler navbar-light" style="margin-right: 30px" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon text-"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="ubisoft.html">Ubisoft</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gameloft.html">Gameloft</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled active" href="focus.html">Focus Entertainment</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="comparatif.html">Comparatif</a>
-                        </li>
-                    </ul>
-                </div>
-          </div>
+	<nav class="main-nav navbar navbar-expand-lg">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="static/img/JTTLlogo.png" alt="cd.." height="36">
+			</a>
+			<button type="button" class="top-right btn btn-danger" onclick="QuitPage()">X</button>
+			<button class="toggler-border navbar-toggler navbar-light" style="margin-right: 30px" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon text-"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ubisoft.html">Ubisoft</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gameloft.html">Gameloft</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled active" href="focus.html">Focus Entertainment</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="comparatif.html">Comparatif</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</nav>
-	
-	
 
-	
-	<!-- Body -->
-	
-	<div style="
-		background: no-repeat center/100% url('static/img/bg.png');
-		height: 300px;
-	"></div>
+	<h1 class="title-color" style="">>> Focus Entertainment<span class="terminal"></span></h1>
 
-	<div class="container px-4">
-		<div class="row g-4 py-5">
+	<div class="text-container container px-4">
+		<div class="row g-4 py-1">
 
 
 			<!-- deuxieme navbar interne a la page-->
+			<div class="navbar navbar-light border border-black">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sommaire" aria-controls="sommaire" aria-expanded="false" aria-label="Toggle navigation">
+					Sommaire <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="sommaire">
+				  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				    <li class="nav-item">
+				      <a class="nav-link" href="#info">Informations Générales</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="#histoire">Histoire de la société</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="#activite">Ses Services</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="#fonctionnement">Fonctionnement et organisation</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="#chiffre">Chiffres clés</a>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+
+			<!-- differents bloc de description-->
 			<div class="block" id="info">
 				<div class="bg-success bg-gradient">
 					<svg class="bi" width="1em" height="1em"></svg>
 				</div>
 				<h2>Informations Générales</h2>
-				<img src="static/img/FE.png" class="img-thumbnail rounded float-end" width="300" alt="logo">
+				<img src="static/img/FocusEntertainmentLogo.png" class="img-thumbnail rounded float-end" width="300" alt="logo">
 				<p>
 					Focus Entertainment est une société par action (SPA) fondée par Cédric Lagarrigue le <strong> 3 février 1995</strong>. Leur siège est au 11 Rue de Cambrai à Paris (75019), l’association travaille principalement dans <strong>l’édition de jeux électroniques</strong> et vendent donc des jeux vidéos.
 				</p>
@@ -77,7 +95,7 @@
 				</div>
 				<h2>Histoire de la société</h2>
 				<p>
-					Après avoir édité et distribué le logiciel de création musicale eJay, Focus Home Interactive devient éditeur et distributeur de jeux vidéo en <strong> 2000 </strong>. 
+					Après avoir édité et distribué le logiciel de création musicale eJay, Focus Home Interactive devient éditeur et distributeur de jeux vidéo en <strong> 2000 </strong>.
 				</p>
 				<p>
 					Au début des années 2000, l'entreprise rencontre plusieurs succès, en distribuant des licences sur PC comme <strong> Cossacks </strong> ou <strong> Sudden Strike </strong>, des jeux vendus à plusieurs centaines de milliers d’exemplaires en France.
@@ -101,7 +119,7 @@
 				<div class="bg-success bg-gradient">
 					<svg class="bi" width="1em" height="1em"></svg>
 				</div>
-				<h2>Ses Services</h2>	
+				<h2>Ses Services</h2>
 				<p>
 					Avant de devenir un studio de jeu vidéo, Focus Entertainement éditais la suite de logiciels de musique <strong> eJay </strong> puis, avec ses différents studios, produit et propose une liste de <strong> 39 </strong> jeux, dont <strong> Farming simulator 19 </strong> ou <strong> Mud Runner </strong>, qui divertissent toutes personnes s’intéressant aux jeux vidéos.
 				</p>
@@ -121,23 +139,22 @@
 					<svg class="bi" width="1em" height="1em"></svg>
 				</div>
 				<h2>Fonctionnement et organisation</h2>
-				<p>
-					L’association est composée de <strong> 4 pôles </strong> différents : 
-					<ul>
-						<li>
-							Le pôle <strong> production </strong> qui s’occupe des jeux en travaillant en équipe. 
-						</li>
-						<li>
-							Le pôle <strong> Business </strong> s’occupant des prix/finances de Focus. 
-						</li>
-						<li>
-							Le pôle <strong>marketing</strong>, s’occupant de la pub des jeux ainsi que de fixer son prix. 
-						</li>
-						<li>
-							Le pôle <strong>support</strong> s’occupant de recenser les bugs des jeux ou tout autre problèmes.
-						</li>
-					</ul>
-				</p>
+
+				<p>L’association est composée de <strong> 4 pôles </strong> différents :</p>
+				<ul>
+					<li>
+						Le pôle <strong> production </strong> qui s’occupe des jeux en travaillant en équipe.
+					</li>
+					<li>
+						Le pôle <strong> Business </strong> s’occupant des prix/finances de Focus.
+					</li>
+					<li>
+						Le pôle <strong>marketing</strong>, s’occupant de la pub des jeux ainsi que de fixer son prix.
+					</li>
+					<li>
+						Le pôle <strong>support</strong> s’occupant de recenser les bugs des jeux ou tout autre problèmes.
+					</li>
+				</ul>
 				<p>
 					Les activités des pôles<strong> business </strong> et <strong> support </strong> sont <strong> répétitives </strong>, puisque leurs tâches se résumes à l’ouverture de mail, écrire un rapport de bug et l’envoyer au pôle production.
 				</p>
@@ -147,9 +164,9 @@
 				<p>
 					Contrairement aux tâches des autres pôles, celles du pôle <strong> production </strong> ne sont <strong>pas répétitives </strong> puisque les jeux sont différents et nécessite un développement adapté notamment avec l’amélioration des graphismes ou la correction de nouveaux bugs.
 				</p>
-				<p>
-					L’association propose de former ses salariés via le programme de formation : <strong>Focus University</strong>.
-				</p>
+
+				<p>L’association propose de former ses salariés via le programme de formation : <strong>Focus University</strong>.</p>
+
 			</div>
 
 			<div class="block" id="chiffre">
@@ -168,24 +185,19 @@
 				</p>
 			</div>
 		</div>
-	</div>
-	
-	<!-- Footer -->
-	
-	<div class="container">
-	  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-		<div class="col-md-4 d-flex align-items-center">
-		  <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-			<svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-		  </a>
-		  <span class="text-muted">2021 JTTL</span>
+
+		<!-- Footer -->
+
+		<div class="container">
+			<footer class="d-flex flex-wrap align-items-center py-3 my-4 border-top">
+				<div class="p-2 bd-highlight text-muted">&copy; 2021 JTTL</div>
+				<div class="ms-auto p-2 bd-highlight text-muted">Titouan NICOT</div>
+			</footer>
 		</div>
-	  </footer>
 	</div>
 	
 	
 	<script src="static/js/bootstrap.js"></script>
-	<script src="static/js/utils.js" type="text/javascript"></script>
+	<script src="static/js/utils.js"></script>
 </body>
 </html>
-

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="utf-8">
 	<title>SAE06 - JTTL</title>
@@ -11,10 +11,10 @@
 <body>
 
 	<!-- Nav -->
-	<nav class="navbar navbar-expand-lg">
+	<nav class="main-nav navbar navbar-expand-lg">
           <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                  <img src="static/img/logo.png" alt="cd.." height="36">
+                <a class="navbar-brand" href="index.html">
+                  <img src="static/img/JTTLlogo.png" alt="cd.." height="36">
                 </a>
                 <button type="button" class="top-right btn btn-danger" onclick="QuitPage()">X</button>
                 <button class="toggler-border navbar-toggler navbar-light" style="margin-right: 30px" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,24 +41,17 @@
                 </div>
           </div>
 	</nav>
-	
-	
 
-	
-	<!-- Body -->
-	
-	<div style="
-		background: no-repeat center/100% url('static/img/bg.png');
-		height: 300px;
-	"></div>
+	<h1 class="title-color" style="">>> Ubisoft<span class="terminal"></span></h1>
 
-	<div class="container px-4">
-		<div class="row g-4 py-5">
+
+	<div class="text-container container px-4">
+		<div class="row g-4 py-1">
 
 
 			<!-- deuxieme navbar interne a la page-->
-			<div class="navbar navbar-light border border-black">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sommaire" aria-controls="sommaire" aria-expanded="false" aria-label="Toggle navigation">
+			<div class="navbar border border-black">
+				<button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#sommaire" aria-controls="sommaire" aria-expanded="false" aria-label="Toggle navigation">
 					Sommaire <span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="sommaire">
@@ -79,20 +72,20 @@
 				      <a class="nav-link" href="#environement">Impact Environemental</a>
 				    </li>
 				    <li class="nav-item">
-				      <a class="nav-link" href="#chiffre">Chiffres clés</a>
+				      <a class="nav-link" href="#chiffre" id="info">Chiffres clés</a>
 				    </li>
 				  </ul>
 				</div>
 			</div>
 
 			<!-- differents bloc de description-->
-			<div class="block" id="info">
+			<div class="block">
 				<div class="bg-success bg-gradient">
 					<svg class="bi" width="1em" height="1em"></svg>
 				</div>
 				<h2>Informations Générales</h2>
-				<img src="static/img/U.png" class="img-thumbnail rounded float-end" width="200" alt="logo">
-				<p>	
+				<img src="static/img/UbisoftLogo.png" class="img-thumbnail rounded float-end" width="200" alt="logo">
+				<p>
 					Ubisoft est une entreprise du secteur vidéoludique qui
 					<strong>crée et édite des jeux vidéo.</strong>
 				</p>
@@ -101,12 +94,12 @@
 				</p>
 					Cette entreprise commerciale se compose d’environ <strong>19
 					000 </strong> salariés en 2021 dont environ 1200 en France. Il y a environ <strong>20% de femmes </strong> dans cette entreprise.
-				<p>
+				<p id="histoire">
 					Ubisoft est <strong> le plus grand éditeur indépendant de jeux vidéos français </strong> et le 3ème au monde. Ses principaux concurrents sont les américains Activision et Blizzard, qui sont parmi les plus grands éditeurs indépendants de jeu vidéo au monde.
 				</p>
 			</div>
 
-			<div class="block" id="histoire">
+			<div class="block">
 				<div class="bg-success bg-gradient">
 					<svg class="bi" width="1em" height="1em"></svg>
 				</div>
@@ -122,16 +115,16 @@
 				</p>
 					En 1997, Ubisoft créa son premier studio hors de l’Europe :
 					Ubisoft Montreal, qui sera son plus grand studio. 
-				<p>
+				<p id="activite">
 					A partir de 2000, elle entreprit aussi de racheter différents studios de développement de jeux vidéos à travers le monde comme Red Storm Entertainment.
 				</p>
 			</div>
 
-			<div class="block" id="activite">
+			<div class="block">
 				<div class="bg-success bg-gradient">
 					<svg class="bi" width="1em" height="1em"></svg>
 				</div>
-				<h2>Ses Jeux vidéos</h2>
+				<h2>Ses jeux vidéos</h2>
 			<p>
 				Certains jeux sont créés en France, d’autres sont crée dans des studios localisés dans d’autres pays. Ses plus grandes productions sont créées par <strong> plusieurs studios </strong>.
 			</p>
@@ -141,25 +134,24 @@
 			<p>
 				Elle possède aussi une filiale centré sur la création de film (<strong>Ubisoft Motion Pictures</strong>) et une sur les bandes dessinés (<strong>Les Deux Royaumes</strong>) lui permettant d’étendre ses franchises hors du domaine du jeu vidéo. Cela a été réalisé dans le but d’atteindre un public plus grand grâce au cinéma, public qu’elle ne pouvait atteindre uniquement avec les jeux vidéos.
 			</p>
-			<p>
+			<p id="fonctionnement">
 				On peut citer par exemple <strong> les lapins crétins </strong>, crées en 2006 en tant qu’ennemi de Rayman, qui ont été utilisé dans de nombreuses publicités et qui ont même obtenu leur propre série télévisé. On peut aussi citer le film <strong> Assassin’s Creed de 2016 </strong> qui tenta d’apporter la franchise à succès au grand écran.
 			</p>	
 				<div class="text-center">
 				<img src="static/img/Rayman_Legends.png" class="img-thumbnail rounded" width="200" alt="game">
-				<img src="static/img/logo assassin's creed.jpg" class="img-thumbnail rounded" width="200" alt="game">
+				<img src="static/img/logo_assassin's_creed.jpg" class="img-thumbnail rounded" width="200" alt="game">
 				<img src="static/img/splinter_cell.png" class="img-thumbnail rounded" width="183" alt="game">
 				<img src="static/img/watch_dogs.png" class="img-thumbnail rounded" width="183" alt="game">
 			</div>
 			</div>
 
-			<div class="block" id="fonctionnement">
+			<div class="block">
 				<div class="bg-success bg-gradient">
 					<svg class="bi" width="1em" height="1em"></svg>
 				</div>
 				<h2>Fonctionnement et organisation</h2>
-				<p>
-					Ubisoft se compose d'environ 50 studios de développement de jeux vidéos.
-					Ils sont composés de plusieurs parties : 
+				<p>	Ubisoft se compose d'environ 50 studios de développement de jeux vidéos.
+					Ils sont composés de plusieurs parties :</p>
 					<ul>
 						<li>
 							La partie <strong> Game Design </strong> qui regroupe les Game Designers et les Level Designers, s’occupent de créer le jeu dans son aspect théorique, ses différentes mécaniques.
@@ -167,7 +159,9 @@
 						<li>
 							La partie <strong> Artistique </strong> regroupe les graphistes et les animateurs qui s’occupent de créer les différentes parties visuelles du jeu.
 						</li>
+						<li>
 							La partie <strong> Technique </strong> regroupe tous les programmateurs qui doivent coder le jeu et le faire fonctionner.
+						</li>
 						<li>
 							La partie <strong> marketing </strong> s’occupe de la publicité du jeu.
 						</li>
@@ -177,14 +171,13 @@
 						</li>
 					    
 					</ul>
-				</p>
-				<p>
+				<p id="environement">
 					Un studio se compose de nombreux métiers et l’on peut facilement y faire des <strong> stages </strong> et même de <strong> l’alternance </strong> dans le domaine que l’on souhaite.
 				</p>
 
 			</div>
 
-			<div class="block" id="environement">
+			<div class="block">
 				<div class="bg-success bg-gradient">
 					<svg class="bi" width="1em" height="1em"></svg>
 				</div>
@@ -195,12 +188,12 @@
 				<p>
 					Elle souhaite réduire ses émissions par <strong> 8,8% par employé </strong> avant 2023 en n’utilisant que des <strong> énergies renouvelables </strong> et en développant le télétravail grâce à la création de logiciels spécifiques et optimisés pour ce mode de travail. 
 				</p>
-				<p>
+				<p id="chiffre">
 					Elle a aussi cofondé le mouvement <strong> Playing for the Planet Alliance </strong> qui vise à sensibiliser les joueurs de jeux vidéos et ses partenaires aux problèmes environnementaux.
 				</p>
 			</div>
 
-			<div class="block" id="chiffre">
+			<div class="block">
 				<div class="bg-success bg-gradient">
 					<svg class="bi" width="1em" height="1em"></svg>
 				</div>
@@ -220,26 +213,20 @@
 					Un jeu crée par Ubisoft coûte au environs <strong> 60 millions d’euros </strong> et prend au moins <strong> 2 ans </strong> pour être crée du fait de leur taille car ce sont des jeux <strong> AAA </strong> à grand budget.
 				</p>
 			</div>
-
-
 		</div>
-	</div>
-	
-	<!-- Footer -->
-	
-	<div class="container">
-	  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-		<div class="col-md-4 d-flex align-items-center">
-		  <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-			<svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-		  </a>
-		  <span class="text-muted">2021 JTTL</span>
+
+		<!-- Footer -->
+
+		<div class="container">
+			<footer class="d-flex flex-wrap align-items-center py-3 my-4 border-top">
+				<div class="p-2 bd-highlight text-muted">&copy; 2021 JTTL</div>
+				<div class="ms-auto p-2 bd-highlight text-muted">Julien OUDOT</div>
+			</footer>
 		</div>
-	  </footer>
 	</div>
 	
 	
 	<script src="static/js/bootstrap.js"></script>
-	<script src="static/js/utils.js" type="text/javascript"></script>
+	<script src="static/js/utils.js"></script>
 </body>
 </html>

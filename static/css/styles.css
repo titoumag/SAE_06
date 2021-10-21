@@ -9,7 +9,29 @@ a:hover{
 	text-decoration: underline;
 }
 
+body{
+    background: no-repeat fixed url('../img/bg.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
 
+.text-container{
+    background-color: white;
+    padding-bottom: 1px ;
+    margin-top: 150px;
+    box-shadow: 0 5px 10px black;
+}
+
+.main-nav{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    box-shadow: 0 0 5px black;
+}
 
 .navbar-brand:hover,.navbar-brand:focus {
     color: #23D604;
@@ -34,6 +56,8 @@ h2{
     color: black;
     /*font-family: ;*/
     font-size: 44px;
+    margin: 20px;
+    text-align: center;
 }
 
 hr{
@@ -42,6 +66,17 @@ hr{
     margin-top: -10px;
     margin-left: -15px;
 }
+
+.title-color{
+    color: #23D604;
+    align-items: center;
+    margin-top: 150px;
+    text-align: left;
+    font-size: 6em;
+    margin-left: 18%;
+
+}
+
 
 .top-right{
     top: 0;
@@ -52,6 +87,14 @@ hr{
 .toggler-border{
     border: 2px solid grey;
     border-radius: 10px;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 2px;
+}
+
+.navbar-toggler:hover{
+    box-shadow: 0 0 0 4px green;
 }
 
 h2{
