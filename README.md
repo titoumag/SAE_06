@@ -14,7 +14,7 @@ Le but du projet est d'étudier 3 studios de jeux vidéos et les comparer.
 
 Membres du groupe :
 
-[Julien Oudot](mailto:julien.oudot03@edu.univ-fcompte.fr?subject=[GitHub])
+[Julien Oudot](mailto:julien.oudot03@edu.univ-fcomte.fr?subject=[GitHub])
 Titouan MAGNIN 
 Titouan Nicot 
 Lilian Schott
