@@ -14,9 +14,9 @@ function TerminalEffect(r){
 	for (var i = 0; i< elems.length;i++){
 		var elem = elems[i];
 		if (t === 0) {
-			elem.innerHTML += " |";
+			elem.innerHTML = elem.innerHTML.substring(0, elem.innerHTML.length - 1) +"|";
 		}else{
-			elem.innerHTML = elem.innerHTML.substring(0, elem.innerHTML.length - 2);
+			elem.innerHTML = elem.innerHTML.substring(0, elem.innerHTML.length - 1)+" ";
 		}
 	}
 
@@ -24,4 +24,13 @@ function TerminalEffect(r){
 	setTimeout(function(){TerminalEffect((t === 0) ? 1:0); }, 500);
 }
 
+// Ajoute deux espace pour les classes 'terminal'
+function AddSpaceToTerminal(){
+	var elems = document.getElementsByClassName('terminal');
+	for (var i = 0; i< elems.length;i++){
+		elem.innerHTML += "  ";
+	}	
+}
+
+AddSpaceToTerminal();
 TerminalEffect(0);
