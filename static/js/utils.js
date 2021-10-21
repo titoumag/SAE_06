@@ -13,10 +13,11 @@ function TerminalEffect(r){
 	var elems = document.getElementsByClassName('terminal');
 	for (var i = 0; i< elems.length;i++){
 		var elem = elems[i];
+		elem.innerHTML = elem.innerHTML.substring(0, elem.innerHTML.length - 1)
 		if (t === 0) {
-			elem.innerHTML = elem.innerHTML.substring(0, elem.innerHTML.length - 1) +"|";
+			elem.innerHTML +="|";
 		}else{
-			elem.innerHTML = elem.innerHTML.substring(0, elem.innerHTML.length - 1)+" ";
+			elem.innerHTML += " ";
 		}
 	}
 
