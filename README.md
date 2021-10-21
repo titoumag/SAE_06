@@ -4,7 +4,7 @@
 
 
 <h2>
-Le but du projet est d'étudier 3 studios de jeux vidéos et les comparer.
+Le but du projet est d'étudier 3 studios de jeux vidéos et les comparer dans leur aspect économique.
 </h2>
 <p float="left">
   <img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/U.png" alt="Ubisoft" width="100" height="100">
