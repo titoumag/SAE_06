@@ -6,6 +6,7 @@ function QuitPage(){
 
 
 // Effet écriture sur terminal (0 = ajouter / 1 = supprimer)
+// Toute balise avec la classe 'terminal' sera affecté
 
 function TerminalEffect(r){
 	var t = r;
