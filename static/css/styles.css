@@ -73,7 +73,7 @@ hr{
     margin-top: 150px;
     text-align: left;
     font-size: 6em;
-    margin-left: 18%;
+    margin-left: 15%;
 
 }
 
@@ -87,14 +87,15 @@ hr{
 .toggler-border{
     border: 2px solid grey;
     border-radius: 10px;
+    box-shadow: 0 0 0 0;
+}
+
+.navbar-toggler:hover{
+    box-shadow: 0 0 0 2px;
 }
 
 .navbar-toggler:focus{
     box-shadow: 0 0 0 2px;
-}
-
-.navbar-toggler:hover{
-    box-shadow: 0 0 0 4px green;
 }
 
 h2{
