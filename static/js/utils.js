@@ -28,7 +28,8 @@ function TerminalEffect(r){
 function AddSpaceToTerminal(){
 	var elems = document.getElementsByClassName('terminal');
 	for (var i = 0; i< elems.length;i++){
-		elem.innerHTML += "  ";
+		
+		elems[i].innerHTML += "  ";
 	}	
 }
 
