@@ -7,9 +7,9 @@
 Le but du projet est d'étudier 3 studios de jeux vidéos et les comparer dans leur aspect économique.
 </h2>
 <p float="left">
-  <img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/U.png" alt="Ubisoft" width="100" height="100">
-  <img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/GL.png" alt="GameLoft" width="100" height="100">
-  <img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/FE.png" alt="Focus" width="200" height="100">
+  <img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/UbisoftLogo.png" alt="Ubisoft" width="100" height="100">
+  <img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/GameloftLogo.png" alt="GameLoft" width="100" height="100">
+  <img src="https://raw.githubusercontent.com/titoumag/SAE_06/main/static/img/FocusEntertainmentLogo.png" alt="Focus" width="200" height="100">
 </p>
 
 Membres du groupe :
