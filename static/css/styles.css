@@ -4,10 +4,6 @@ a{
 
 }
 
-a:hover{
-	color: #23D604;
-	text-decoration: underline;
-}
 
 body{
     background: no-repeat fixed url('../img/bg.png');
@@ -101,3 +97,22 @@ hr{
 h2{
 	margin: 20px;
 }
+
+.boutton{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 160px;
+    text-align: left;
+    display: block;
+}
+
+.boutton:hover{
+
+    color: #23D604;
+    border-color: green;
+    text-decoration: none;
+
+}
+
+
