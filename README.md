@@ -19,6 +19,24 @@ Titouan MAGNIN
 Titouan Nicot 
 Lilian Schott
 
+# Répartitions des taches
+
+Ecran de Zoning réalisé par Titouan NICOT.<br>
+Chaque membre du groupe a réalisé la page lié à la partie qu'il a écrit dans le rapport économique :
+<br>
+Julien OUDOT - Ubisoft,
+<br>
+Tiouan MAGNIN - Gameloft,
+<br>
+Titouan NICOT - Focus Entertainment,
+<br>
+Lilian SCHOTT - Comparatif.
+<br>
+
+La page d'acceuil a été réalisé par tout les membres.
+
+# Documents
+
 ![écran de zoning](doc/zoning.png)
 
 ![écran prototype](doc/prototype.png)
