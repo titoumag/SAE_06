@@ -24,3 +24,14 @@ Lilian Schott
 ![écran prototype](doc/prototype.png)
 
 [Doc PDF](doc/JulienOUDOT_S1B2_SAE106_rapport_comparatif.pdf)
+
+# Validation des pages 
+![W3C Index](doc/w3c/w3cIndex.png)
+
+![W3C Ubisoft](doc/w3c/w3cUbisoft.png)
+
+![W3C Focus](doc/w3c/w3cFocus.png)
+
+![W3C Gameloft](doc/w3c/w3cGameloft.png)
+
+![W3C Comparatif](doc/w3c/w3cComparatif.png)
